@@ -1,0 +1,216 @@
+body {
+    background: url('../assets/img/kafe.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* box dan komponen umum */
+.content-box {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.box-relative {
+    position: relative;
+    min-height: 450px;
+}
+
+.table thead th {
+    vertical-align: middle;
+}
+
+/* badge*/
+.badge.bg-danger {
+    background-color: #dc3545 !important; 
+}
+
+/* tombol */
+.btn-sm {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.btn-bawah-kiri {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.btn-bawah-kanan {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.btn-kembali {
+    margin-top: 10px;
+}
+
+/* sticky dashboard */
+.sticky-back {
+    position: sticky;
+    bottom: 30px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+/* menu  */
+.card-menu {
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #f8f9fa;
+}
+
+.card-menu:hover {
+    background-color: #0d5e92;
+    color: white;
+    transform: scale(1.05);
+}
+
+.card-menu i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card-menu img {
+    height: 170px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body h5 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.menu-harga {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-pesan {
+    display: none;
+    margin-top: 10px;
+}
+
+/* navbar  */
+.navbar-custom {
+    background: #09365F;
+    color: white;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+}
+
+.navbar-custom h4 {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* animasi  */
+[data-aos] {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* footer */
+.footer-animasi {
+    filter: blur(10px);
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-in-out;
+}
+
+.aos-animate.footer-animasi {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* keranjang  */
+.keranjang-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 12px 20px;
+    font-size: 16px;
+    z-index: 999;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* struk */
+body.struk-page {
+    background: #fff !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color: #000;
+}
+
+.struk {
+    max-width: 270px;
+    margin: auto;
+    padding: 12px 15px;
+}
+
+.struk h2 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.struk p.center {
+    text-align: center;
+    margin: 2px 0 10px;
+    font-size: 10px;
+}
+
+.struk table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.struk th,
+.struk td {
+    font-size: 10.5px;
+    padding: 4px 5px;
+    border: none;
+}
+
+.struk th:nth-child(1),
+.struk td:nth-child(1) {
+    width: 40%;
+}
+
+.struk th:nth-child(2),
+.struk td:nth-child(2) {
+    width: 15%;
+    text-align: center;
+}
+
+.struk th:nth-child(3),
+.struk td:nth-child(3),
+.struk th:nth-child(4),
+.struk td:nth-child(4) {
+    width: 22.5%;
+    text-align: right;
+}
+
+.struk .total {
+    font-weight: bold;
+    border-top: 1px dashed #000;
+    padding-top: 4px;
+    margin-top: 4px;
+}
+
+.struk hr {
+    border: 0;
+    border-top: 1px dashed #000;
+    margin: 10px 0;
+}
